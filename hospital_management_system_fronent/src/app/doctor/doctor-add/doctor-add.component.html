@@ -1,0 +1,93 @@
+<h4 class="mt-4">Doctors Add</h4>
+<div class="card">
+  <div class="card-body">
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Select Hospital</label>
+      <div class="col-sm-9">
+        <p-dropdown [options]="cities" placeholder="Select Hospital" optionLabel="name" [showClear]="true"></p-dropdown>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Select Doctor Type</label>
+      <div class="col-sm-9">
+        <p-dropdown [options]="cities" placeholder="Select Doctor Type" optionLabel="name" [showClear]="true"></p-dropdown>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Doctor Name</label>
+      <div class="col-sm-9">
+        <input type="text" pInputText placeholder="Enter Doctor Name" class="form-control"/>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Doctor Email</label>
+      <div class="col-sm-9">
+        <input type="text" pInputText placeholder="Enter Doctor Email" class="form-control"/>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Doctor Qualificaion</label>
+      <div class="col-sm-9">
+        <textarea pInputTextarea placeholder="Enter Doctor Qualificaion" class="form-control"></textarea>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Doctor Specialization</label>
+      <div class="col-sm-9">
+        <textarea pInputTextarea placeholder="Doctor Specialization" class="form-control"></textarea>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">About Doctor</label>
+      <div class="col-sm-9">
+        <textarea pInputTextarea class="form-control" placeholder="About Doctor"></textarea>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Doctor Phone</label>
+      <div class="col-sm-9">
+        <input type="text" pInputText placeholder="Doctor Phone" class="form-control"/>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Date of Birth</label>
+      <div class="col-sm-9">
+        <input type="text" pInputText placeholder="Date of Birth" class="form-control"/>
+      </div>
+    </div>
+    
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Select City</label>
+      <div class="col-sm-9">
+        <p-dropdown [options]="cities" placeholder="Select City" optionLabel="name" [showClear]="true"></p-dropdown>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">State State</label>
+      <div class="col-sm-9">
+        <p-dropdown [options]="cities" placeholder="Select State" optionLabel="name" [showClear]="true"></p-dropdown>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Address</label>
+      <div class="col-sm-9">
+        <input type="text" pInputText placeholder="Doctor Address" class="form-control"/>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Pincode</label>
+      <div class="col-sm-9">
+        <input type="text" pInputText placeholder="Pincode" class="form-control"/>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Doctor Image</label>
+      <div class="col-sm-9">
+        <input type="file" pInputText placeholder="Select Dotor Image" class="form-control"/>
+      </div>
+    </div>
+    <div class="form-group row" style="float:right; margin-right:10px">
+      <button pButton type="button" label="Save Doctors" class="ui-button-raised"></button>
+    </div>
+  </div>
+</div>
